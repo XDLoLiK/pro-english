@@ -8,7 +8,7 @@
 		<meta name="keywords" lang="en" content="английский, дети, обучение, белгород, группы, иностранные языки, занятия, говорить, понимать, учитель, про инглиш, взрослые, дошкольники, весело, игровая форма, увлекательно, знания, практика, график, носители, егэ, огэ, экзамены">
 		<title>Pro-English</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="shortcut icon" type="image/png" href="images\logo.png">
+		<link rel="shortcut icon" type="image/png" href="images/logo.png">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap" rel="stylesheet">
 		<link href="css/all.css" rel="stylesheet">
@@ -230,13 +230,13 @@
 						<a href="https://mail.yandex.ru/?uid=366542775#inbox"><p>Pro-English.new@yandex.ru</p></a>
 					</div>
 				</div>
-				<form action="mail.php" method="POST" id="application" target="_self">
+				<form action="send.php" method="post" id="application" target="_self">
 					<div class="person_data">
-						<input form="application" type="text" name="user_name" required="" placeholder="ФИО">
-						<input form="application" type="text" name="user_email" required="" placeholder="Ваш e-mail или номер телефона">
+						<input form="application" type="text" name="user_name" placeholder="ФИО" required>
+						<input form="application" type="text" name="user_email" placeholder="Ваш e-mail или номер телефона" required>
 					</div>	
 					<div class="application_content">
-						<textarea form="applicaation" name="user_message" required="" placeholder="Ваше сообщение"></textarea>
+						<textarea form="applicaation" type="text" name="user_message" placeholder="Ваше сообщение"></textarea>
 					</div>
 					<div class="send_button">
 						<input form="application" type="submit" name="submition" value="Отправить">
